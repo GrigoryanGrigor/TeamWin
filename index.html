@@ -41,7 +41,7 @@
 </nav>
    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
      <div class="container">
-      <a href="#"><img width=40px src="img/twrp1.png" alt=""></a>
+      <a href="index.html"><img width=40px src="img/twrp1.png" alt=""></a>
           <form class="form-inline my-2 my-lg-0 d-none d-lg-block ml-auto">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-light my-2 my-sm-0 mr-left-auto" type="submit">Search</button>
@@ -51,8 +51,8 @@
     My Account
   </button>
   <div class="dropdown-menu">
-    <a class="dropdown-item" href="#">Login</a>
-    <a class="dropdown-item" href="#">Register</a>
+    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#Login">Login</a>
+    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#Register">Register</a>
     <a class="dropdown-item" href="#">My Orders</a>
     <a class="dropdown-item" href="#">Account Settings</a>
     </div>
@@ -66,12 +66,12 @@
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <div class="dropdown col-3">
   <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    ADB
+    Gapps
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Xiaomi</a>
-    <a class="dropdown-item" href="#">Samsung</a>
-    <a class="dropdown-item" href="#">OnePlus</a>
+    <a class="dropdown-item" href="gapps.html">Xiaomi</a>
+    <a class="dropdown-item" href="gapps.html">Samsung</a>
+    <a class="dropdown-item" href="gapps.html">OnePlus</a>
   </div>
 </div>
       <div class="dropdownd col-3">
@@ -117,6 +117,9 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
   </ol>
   <div class="carousel-inner">
       <div class="carousel-item active bg-dark">
@@ -124,7 +127,7 @@
       <img height="300px" src="img/twrp2.png" class="d-block" alt="...">
     <div class="carousel-caption d-none d-md-block">
         <h3>TeamWin Recovery Project</h3>
-        <p>Download only here</p>
+        <p>Download only here!</p>
       </div>
     </div>
       </div>
@@ -133,7 +136,7 @@
         <img height="300px" src="img/fastboot.png" class="d-block" alt="...">
      <div class="carousel-caption d-none d-md-block">
         <h3>Fastboot Mode</h3>
-        <p>Instructions for any device</p>
+        <p>Instructions for any device!</p>
       </div>
     </div>
      </div>
@@ -142,10 +145,37 @@
       <img height="300px" src="img/magisk.png" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h3>Magisk Manager</h3>
-        <p>Get root access easily</p>
+        <p>Get root access easily!</p>
       </div>
       </div>
   </div>
+  <div class="carousel-item bg-dark">
+    <div class="row justify-content-center p-3">
+      <img height="300px" src="img/gapps.png" class="d-block" alt="...">
+   <div class="carousel-caption d-none d-md-block">
+      <h3>Google Apps</h3>
+      <p>Get Official Google Apps!</p>
+    </div>
+  </div>
+   </div>
+   <div class="carousel-item bg-dark">
+    <div class="row justify-content-center p-3">
+<img height="300px" src="img/gcam.png" alt="...">
+<div class="carousel-caption d-none d-md-block">
+<h3>Google Camera</h3>
+<p>Upgrade Your Camera!</p>
+</div>
+</div>
+</div>
+<div class="carousel-item bg-dark">
+  <div class="row justify-content-center p-3">
+<img height="300px" src="img/android.png" alt="...">
+<div class="carousel-caption d-none d-md-block">
+<h3>Android ROMs</h3>
+<p>Flash Them in our Recovery!</p>
+</div>
+</div>
+</div>
     </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -182,6 +212,38 @@
   <div class="card-body">
     <h5 class="card-title">Magisk</h5>
     <p class="card-text">Get magisk manager apk file and zip file for TWRP installing.</p>
+    <a href="#" class="btn btn-primary">Download</a>
+  </div>
+</div>
+<div class="card col-6 col-lg-3" style="width: 18rem;">
+  <img src="img/gapps.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Google Apps</h5>
+    <p class="card-text">Download Google apps for your smartphone.</p>
+    <a href="gapps.html" target="_blank" class="btn btn-primary">Download</a>
+  </div>
+</div>
+<div class="card col-6 col-lg-3" style="width: 18rem;">
+  <img src="img/gcam.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Google Camera</h5>
+    <p class="card-text">Install Google Camera and upgrade your device.</p>
+    <a href="#" class="btn btn-primary">Download</a>
+  </div>
+</div>
+<div class="card col-6 col-lg-3" style="width: 18rem;">
+  <img src="img/magisk.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Modules</h5>
+    <p class="card-text">Get some modules and install it by Magisk Manager.</p>
+    <a href="#" class="btn btn-primary">Download</a>
+  </div>
+</div>
+<div class="card col-6 col-lg-3" style="width: 18rem;">
+  <img src="img/android.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">ROMs</h5>
+    <p class="card-text">Download android ROM files and flash it in our recovery!</p>
     <a href="#" class="btn btn-primary">Download</a>
   </div>
 </div>
@@ -242,6 +304,83 @@
              </div>
            </div>
     </nav>
+    <div class="modal fade" id="Login" tabindex="-1" role="dialog" aria-labelledby="LoginLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="LoginLabel">Login</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+          </div>
+        </div>
+      </div>
+    </div>
+            <div class="modal fade" id="Register" tabindex="-1" role="dialog" aria-labelledby="RegisterLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="RegisterLabel">Register</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Password</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputAddress">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputState">State</label>
+          <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>Armenia</option>
+            <option>Russia</option>
+            <option>USA</option>
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputZip">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+      </div>
+      <div class="form-group">
+      </div>
+      <button type="submit" class="btn btn-primary">Register</button>
+    </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
